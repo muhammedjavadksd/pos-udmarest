@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset='utf-8'>
+    <meta http-equiv='X-UA-Compatible' content='IE=edge'>
+    <title> pos2</title>
+    <meta name='viewport' content='width=device-width, initial-scale=1'>
+    <link rel='stylesheet' type='text/css' media='screen' href='style.css'>
+    
+    <script src="script.js"></script>
+</head>
+<body>
+    <div class="main">
+        <div class="head1">
+            <a href="index.html"><h1 class="head_h1">UDUMA RESTAURANTS</h1></a>
+            <a href="about.html" class="about">click</a>
+        </div>
+        <div class="head2">
+            <img class="img1" src="imeges/download.png" alt="">
+        </div>
+    </div>
+    <div class="main1">
+    <div class="prode">
+        
+        <h1 class="PRO_H1">PRODUCTS</h1><button onclick="plusbi()" class="plus">CONFORM</button>
+        <button class="plus" onclick="billsclick('+')">ADD</button><hr>
+        <div class="prdt">
+            <form action=""><h1 class="listp"><button class="btn"> 1-POROTA</button><input type="number" class="qua" placeholder="Quanity"><input type="button" value="submit" class="billsub" onclick="billsclick(10)"></h1></form>
+            <div class="list1">
+            </div>
+        </div>
+        <br>
+        <div class="prdt">
+            <form action=""><h1 class="listp"><button class="btn"> 2-CHILLI CHICKEN</button><input type="number" class="qua" placeholder="Quanity"><input type="button" value="submit" class="billsub" onclick="billsclick(60,)"></h1></form>
+        </div>
+        <br>
+        <div class="prdt">
+            <form action=""><h1 class="listp"><button class="btn"> 3-COCO COLA</button><input type="number" class="qua" placeholder="Quanity"><input type="button" value="submit" class="billsub" onclick="billsclick(90)"></h1></form>
+        </div>
+        <br>
+        <div class="prdt">
+            <form action=""><h1 class="listp"><button class="btn">4-CHAPPATTHI</button><input type="number" class="qua" placeholder="Quanity"><input type="button" value="submit" class="billsub" onclick="billsclick(12)"></h1></form>
+        </div>
+        <br>
+        <div class="prdt">
+            <form action=""><h1 class="listp"><button class="btn">5-BIRIYANI</button><input type="number" class="qua" placeholder="Quanity"><input type="button" value="submit" class="billsub" onclick="billsclick(65)"></h1></form>
+        </div>
+        <br>
+    </div>
+    </div>
+        
+    </div>
+    </div>
+        <div class="bill">
+            <h1 class="in_h1">INVOICE</h1><hr>
+            <div id="output">
+                <div class="billall">
+                    <p class="billhead">udma restaurant</p>
+                    <h3>UDUMA RESTAURANTS</h3>
+                    <p class="phobi">9946683107</p>
+                    <p>waiter :UDUMA RESTAURANT</p>
+                    <p class="phobi">17/01/21 <br>monday</p>
+                    <hr>
+                    <table border="1px" class="table">
+                        <thead>
+                            <th>number</th>
+                            <th>item</th>
+                            <th>qty</th>
+                            <th>price</th>
+                        </thead>
+                    </table>
+                </div>
+                <br>
+                <input type="text"  id="output1">
+                <br>
+                <br>
+                <div class="total1">
+                <label for="">GRAND TOTAL</label>
+                <input type="text"  id="total" onclick="clearbill()">
+                </div>
+                <p class="billall1">thanks for visiting</p>
+            </div>
+            <button class="print" onclick="clearbill()">clear </button>
+            <a href="index.html"><button class="print">NEW INVOICE</button></a>
+
+<button class="print">PRINT</button>
+             <!--<table class="table" border="1px">
+                 <thead>
+                     <th>prodects</th>
+                     <th>quanity</th>
+                     <th>price</th>
+                 </thead>
+                 <tbody>
+                     <tr>
+                     <td>porrotta</td>
+                     <td>5</td>
+                     <td>50$</td>
+                     </tr>
+                     <tr>
+                         <td>chicken chilli</td>
+                         <td>2</td>
+                         <td>120$</td>
+                     </tr>
+                     <tr>
+                         <td>coca cola</td>
+                         <td>2</td>
+                         <td>180$</td>
+                     </tr>
+                 </tbody>
+             </table>-->
+    </div>
+    </div>
+     </div>
+     <script>
+         var str ="PORROTTA"
+        var str1="CHICKEN CHILLI"
+        var str2="COCO COLA"
+        var str3="CHAPPATTHI"
+        var str4="BIRIYANI"
+     </script>
+</body>
+</html>

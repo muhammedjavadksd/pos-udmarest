@@ -1,0 +1,146 @@
+
+.head1{
+    width:50%;
+    background-color: rgb(246,250,9);
+    float: left;
+    height:100px;
+}
+.head2{
+    width:50%;
+    background-color: rgb(246, 250, 9);
+    float: left;
+    height:100px;
+}
+.img1{
+    width:100px;
+    height:50px;
+    padding-left:715px;
+    padding-top:20px;
+    width:60px;
+}
+.head_h1{
+    font-family: cursive;
+    padding-left:80px;
+}
+.main{
+    border:solid;
+    height:101px;
+
+}
+.prode{
+    width:74%;
+    border: solid;
+    background-color: springgreen;
+    float: left;
+    height: 722px;
+}
+.bill{
+    width:25%;
+    border:solid;
+    background-color: tomato;
+    float: left;
+    height:722px;
+}
+.PRO_H1{
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    padding-left: 450px;
+}
+.in_h1{
+    font-family: inherit;
+    padding-left: 125px;
+}
+.prdt{
+    background-color: blue;
+    height:83px;
+    width:1150px;
+    margin-left: 6px;
+
+}
+.table{
+    height:10px;
+    width: 50px;
+}
+.listp{
+    color:chartreuse;
+    margin-left: 15px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    margin-bottom: 15px;
+}
+#output{
+    width: 67%;
+    height: 466px;
+    background-color: rgb(255, 255, 255);
+    margin-left: 78px;
+    margin-top: 41px;
+    margin-bottom: 1px;
+    margin-right: 58px;
+}
+.in{
+    width: 500px;
+}
+.btn{
+    width:247px;
+    height:57px;
+    margin-top:6px;
+
+}
+#output1{
+    width:251px;
+    height:138px;
+    margin-left:0px;
+    pointer-events: none;
+}
+.qua{
+    width:157px;
+    height:25px;
+    margin-left:105px;
+    margin-right:1px;
+}
+.billsub{
+    width: 161px;
+    height:46px;
+    margin-left:133px;
+}
+.table{
+    width:10px;
+    height:10px;
+}
+.billall{
+    margin-left:10px;
+}
+.billhead{
+    margin-left:60px;
+}
+.phobi{
+    margin-left:70px;
+}
+.print{
+    width:68px;
+    height:36px;
+    margin-left:166px;
+    color:#020202;
+    background-color:#ffeb3b;
+    margin-top:10px;
+}
+.billall1{
+    margin-left:70px;
+    margin-top:5px;
+}
+.about{
+    width:1px;
+    height:1px;
+}
+.plus{
+    width:91px;
+    height:29px;
+    margin-left:485px;
+}
+#total{
+    width:75px;
+    height:12px;
+    margin-left:1px;
+    pointer-events: none;
+}
+.total1{
+    margin-left:10px;
+}
